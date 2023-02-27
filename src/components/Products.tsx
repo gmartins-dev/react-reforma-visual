@@ -1,7 +1,6 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { products } from '../database/data'
-
 const Products = () => {
   const [index, setIndex] = useState(1)
 

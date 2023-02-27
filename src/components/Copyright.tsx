@@ -1,5 +1,5 @@
+import React from 'react'
 import { copyright } from '../database/data'
-
 const Copyright = () => {
   const { link1, link2, copyText, social } = copyright
 

@@ -1,3 +1,5 @@
+import React from 'react'
+
 // import aos
 import Aos from 'aos'
 import 'aos/dist/aos.css'

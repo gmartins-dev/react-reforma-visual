@@ -1,5 +1,5 @@
+import React from 'react'
 import { footer } from '../database/data'
-
 import Copyright from './Copyright'
 
 const Footer = () => {

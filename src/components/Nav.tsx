@@ -1,5 +1,5 @@
+import React from 'react'
 import { nav } from '../database/data'
-
 const Nav = () => {
   return (
     <nav>

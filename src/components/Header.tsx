@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react'
-
+import React, { useEffect, useState } from 'react'
 import { header } from '../database/data'
 
 import { HiMenuAlt4, HiOutlineX } from 'react-icons/hi'

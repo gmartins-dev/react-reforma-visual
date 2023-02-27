@@ -1,5 +1,5 @@
+import React from 'react'
 import { features } from '../database/data'
-
 const Feature2 = () => {
   const { feature2 } = features
   const { pretitle, title, subtitle, btnLink, btnIcon, image } = feature2

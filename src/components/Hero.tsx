@@ -1,10 +1,8 @@
-
+import React from 'react'
+import { HiOutlineCursorClick } from 'react-icons/hi'
 import { hero } from '../database/data'
 
-import { HiOutlineCursorClick } from 'react-icons/hi'
-
 const Hero = () => {
-
   const { title, subtitle, btnText, compText, image } = hero
 
   return (

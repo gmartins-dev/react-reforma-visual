@@ -1,7 +1,7 @@
 import { testimonials } from '../database/data'
 
+import React from 'react'
 import ClientSlider from './ClientSlider'
-
 const Testimonials = () => {
   const { title, clients } = testimonials
 

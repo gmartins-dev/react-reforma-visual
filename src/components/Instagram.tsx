@@ -1,6 +1,6 @@
-import { instagram } from '../database/data'
-
+import React from 'react'
 import { BsInstagram } from 'react-icons/bs'
+import { instagram } from '../database/data'
 
 const Instagram = () => {
   const { title, subtitle, btnText, img1, img2 } = instagram
