@@ -1,0 +1,62 @@
+/* TailwindCSS Standarts */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Layout Customizations */
+@layer base {
+  body {
+    @apply font-primary text-lg bg-whiteCustom;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-darkGreenCustom;
+  }
+  .title,
+  .section-title {
+    @apply text-6xl lg:text-8xl mb-6 font-bold;
+  }
+  .h2 {
+    @apply text-5xl lg:text-7xl font-bold;
+  }
+  .pretitle {
+    @apply text-lg lg:text-[22px] text-blackCustom mb-4 lg:mb-6 uppercase font-normal;
+  }
+  .lead {
+    @apply text-2xl text-blackCustom font-normal mb-6;
+  }
+  .link {
+    @apply text-lg text-darkGreenCustom;
+  }
+  .section {
+    @apply py-8 lg:py-[142px];
+  }
+  .btn {
+    @apply rounded-lg transition flex justify-center items-center;
+  }
+  .btn-lg {
+    @apply h-[75px] px-6 text-2xl font-normal;
+  }
+  .btn-md {
+    @apply h-[60px] px-[16px] text-lg font-normal;
+  }
+  .btn-sm {
+    @apply h-[48px] px-[16px] text-lg font-normal;
+  }
+  .btn-redCustom {
+    @apply text-white bg-redCustom hover:bg-redCustomHover;
+  }
+  .btn-white {
+    @apply text-redCustom bg-white hover:bg-white/90;
+  }
+  .btn-outline {
+    @apply bg-transparent text-redCustom border border-redCustom hover:bg-redCustom hover:text-white;
+  }
+  .btn-link {
+    @apply text-redCustom text-xl lg:text-2xl;
+  }
+}
