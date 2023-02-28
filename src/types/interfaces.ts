@@ -1,4 +1,4 @@
-//https://transform.tools/js-object-to-json
+// interfaces/types under construction...
 
 export interface Iheader {
   logo: string
