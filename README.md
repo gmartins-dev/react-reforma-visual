@@ -42,6 +42,8 @@ This project was developed with the following technologies:
   <img  align="center"  alt="React"  height="30"  width="30"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> **React**
 
   <img  align="center"  alt="TailwindCSS"  height="30"  width="30"  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"> **TailwindCSS**
+  
+  <img  align="center"  alt="Vite.js"  height="30"  width="30"  src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg"> **Vite.js**
 
 </br>
 
